@@ -1,8 +1,28 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-form {
+
+.email-form {
   width: 400px;
   margin: 0 auto;
 }
+
+.image-background {
+  background: url("../img/colrdlvs.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+ }
+ /*positioning to the very top with no space */
