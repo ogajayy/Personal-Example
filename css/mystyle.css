@@ -8,13 +8,40 @@ body {
   padding-bottom: 20px;
 }
 
+.landingmovie {
+  width: 100%;
+  min-height: 100%;
+}
+
+.video-foreground {
+  position: absolute;
+  top: 200px;
+  color: white;
+}
+
 .email-form {
   width: 400px;
   margin: 0 auto;
 }
 
 .image-background {
-  background: url("../img/colrdlvs.jpg");
+  background: url("../img/grnawsm.png");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.image-background2 {
+  background: url("../img/grnhoneycmb.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.image-background3 {
+  background: url("../img/wtrdrps.jpg");
   background-size: cover;
   background-position: center;
   max-width: 100%;
@@ -22,7 +49,10 @@ body {
 }
 
 canvas {
-  position: absolute;
+  position: absolute;;
   top: 0px;
  }
  /*positioning to the very top with no space */
+ .form-group {
+   background-color: ;
+ }

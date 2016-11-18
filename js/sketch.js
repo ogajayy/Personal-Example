@@ -27,13 +27,13 @@ function Bubble() {
   this.y = random(0,height);
 
   this.display = function (){
-    stroke(255);
+    stroke(100);
     noFill();
     ellipse(this.x,this.y, 25,25);
   }
 
   this.move = function(){
-    this.x = this.x + random (-2,2);
-    this.y = this.y + random (-2,2);
+    this.x = this.x + random (-1,1);
+    this.y = this.y + random (-1,1);
   }
 }
